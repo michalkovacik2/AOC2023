@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Day01",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/day01/target/debug/day01.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}/day01/",
+            "environment": [],
+            "console": "externalTerminal"
+        }
+    ]
+}
