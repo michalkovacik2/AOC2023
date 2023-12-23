@@ -33,6 +33,17 @@
             "cwd": "${workspaceRoot}/day03/src/",
             "environment": [],
             "console": "externalTerminal"
+        },
+        {
+            "name": "Day04",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/day04/target/debug/day04.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}/day04/src/",
+            "environment": [],
+            "console": "externalTerminal"
         }
     ]
 }
