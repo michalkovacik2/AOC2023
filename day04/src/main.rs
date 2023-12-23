@@ -46,7 +46,7 @@ fn parse_card(line: &str) -> Card {
     card
 } 
 
-fn part1(file_name: &str) -> io::Result<()> {
+fn part1_and_part2(file_name: &str) -> io::Result<()> {
     let mut total_points = 0;
     let mut total_cards = 0;
     let mut cards: Vec<Card> = Vec::new();
@@ -96,5 +96,5 @@ fn part1(file_name: &str) -> io::Result<()> {
 }
 
 fn main() {
-    let _ = part1("input.txt");
+    let _ = part1_and_part2("input.txt");
 }
