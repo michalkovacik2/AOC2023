@@ -280,7 +280,7 @@ fn part2(file_name: &str) -> io::Result<()> {
     dfs(&mut matrix, &mut distance_matrix, &steps, Node{x: 0, y: 0, cost: 0}, 0, '.');
     // 3. What remained is the inside of our loop
     for i in (0..distance_matrix.len()).step_by(3) {
-        for j in (0..distance_matrix[0].len()).step_by(3) {
+        for j in (0..distance_matrix[i].len()).step_by(3) {
             let mut all_3x3_not_visited = true;
             for k in i..i + 3 {
                 for l in j..j + 3 {
