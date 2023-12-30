@@ -118,5 +118,6 @@ fn part1_and_part2(file_name: &str, expansion_step: i64) -> io::Result<()> {
 }
 
 fn main() {
+    // NOTE: For part1 to work you need to input 2 as expansion step
     let _ = part1_and_part2("input.txt", 1000000);
 }
